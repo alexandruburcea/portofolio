@@ -1,34 +1,156 @@
 <!DOCTYPE html>
+
 <html>
-<!--Thank you for your time spent in reading my code-->
-<!--Please feel free to contact me at alexandru.ionut.burcea@gmail for any questions.-->
-<!--head starts here-->
+
+<!-- head details for title, meta, css ref etc. -->
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>abdev</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
-<!--    body start here-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Burcea - J.D.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+
+<!-- Main Body HTML, nav bar / attempt with parallax -->
 
 <body>
-    <header>
-        <div id="div">
-            <h1 id="name">Alexandru Burcea</h1>
-            <h3 id="about">Welcome to my world.</h3>
-            <h2 id="page"> Page under construction</h2> </div>
-    </header>
-    <div id="particles-js">
-        <canvas height="400" width="700" style="width: 100%; height: 100%;"></canvas>
+    <div data-bs-parallax-bg="true" id="main">
+        <nav class="navbar navbar-default" id="top-nav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation"> <a href="#main">Home
+                        </a>
+                        </li>
+                        <li role="presentation"> <a href="#intro">About Me</a> </li>
+                        <li role="presentation"> <a href="#skills">Skills
+                        </a>
+                        </li>
+                        <li role="presentation"> <a href="#contact">Contact
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-    <!--    Thanks to RoshinJose for this beautiful codepen -->
-    <script src="http://roshinjose.com/codepen/jquery_002.js"></script>
-    <script src="http://roshinjose.com/codepen/plugins.js"></script>
-    <script src="/js/script.js"></script>
-    <!-- scripts ends here -->
-    <footer> <a class="contact" href="https://www.linkedin.com/in/alexandru-burcea-584a3967/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="contact" href="https://github.com/alexandruburcea"><i class="fa fa-github" aria-hidden="true"></i></a> <a class="contact" href="mailto:alexandru.ionut.burcea@gmail.com?subject=Hello&body=Gmail"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </footer>
+
+    <!-- Personal Image and details about me -->
+
+    <div id="main-logo">
+        <img src="assets/img/me.png">
+        <h1>My name is Alex</h1>
+        <h2>
+            Junior Software Tester, Junior Python Developer, Junior Front End Developer
+        </h2>
+    </div>
+    <div id="intro">
+        <div class="container">
+            <div class="row space-top">
+                <div class="col-md-12">
+                    <h1 class="text-center">Who I am?
+                    </h1>
+                    <p>Good day and how are you?! My name is Alexandru Burcea and I am currently studying Computer Science in IT Tallaght. With gained skills in Python and Front – End Technologies (HTML, CSS, JavaScript, Bootstrap) I believe that I am ready to step into the world of development. With skills to create web applications and to automate testing using Python and JavaScript, I believe I can create and bring new projects and tools that will improve the quality of the web applications and speed up the testing process.
+                    </p>
+                    <div id="work">
+                        <h1 class="text-center">Work Experience
+                        </h1>
+                        <div class="work1">
+                            <p><b>Test Engineer</b> - Samsung Electronics - [Jul 2017 - Present] </p>
+                            <p><b>Technical Team Lead </b> - Fonua Ltd. - [ Feb 2017 - Jul 2017 ] </p>
+                            <p><b>Senior Technician </b> - Fonua Ltd. - [Jul 2016 - Jan 2017] </p>
+                        </div>
+                        <div class="work2">
+                            <p><b>BGA Technician </b> - Fonua Ltd. - [Aug 2015 - Jul 2016] </p>
+                            <p><b>Production Team Leader</b> - SBE Ltd. - [Sep 2014 - Aug 2015] </p>
+                            <p><b>Level 4 Technician </b> - SBE Ltd. - [Mar 2013 - Aug 2014] </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills HTML  -->
+
+    <div id="skills" class="space-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 space-top">
+                    <h1 class="text-center">My Skills
+                    </h1>
+                </div>
+            </div>
+
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">65%</div>
+            </div>
+
+            <p>Python</p>
+            <div class="container">
+                <div class="skills python">70%</div>
+            </div>
+
+            <p>Tools and Others (Selenium, Unity, Java, Android Studio, SQL)</p>
+            <div class="container">
+                <div class="skills others">40%</div>
+            </div>
+
+            <div id="contact">
+                <div class="container space-top">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-center">Where you can find me</h1>
+                        </div>
+                    </div>
+                    <div class="row contact">
+                        <div class="col-md-12">
+                            <a target="top" href="mailto:alexandru.ionut.burcea@gmail.com"> <i class="fa fa-envelope-o" data-bs-hover-animate="pulse" id="mail"></i> </a>
+                        </div>
+                        <div class="col-md-12">
+                            <a target="top" href="www.linkedin.com/in/alexandru-burcea
+                     "> <i class="fa fa-linkedin" data-bs-hover-animate="pulse" id="linkedin"></i> </a>
+                        </div>
+                        <div class="col-md-12">
+                            <a target="top" href="https://github.com/alexandruburcea"><i class="fa fa-github" data-bs-hover-animate="pulse" id="github"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer" class="space-top">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center"><a href="http://abdev.eu">Alexandru Burcea</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Scripts -->
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="assets/js/jquery.smooth-scroll.js"></script>
+            <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
